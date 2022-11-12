@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.dark-background {
+    background:#1f2937;
+}
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container {
+    max-width: 1100px;
+    margin : 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+.header-logo {
+    font-size:24px;
+    color:#f9faf8;
+}
+
+.nav-bar {
+    height: 60px;
+}
+.nav-bar > .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-bar  ul {
+    display:flex;
+    gap:1rem;
+}
