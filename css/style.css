@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1000px;
     margin : 0 auto;
 }
 
@@ -40,4 +40,133 @@ ul {
 .nav-bar  ul {
     display:flex;
     gap:1rem;
+}
+
+header > .container {
+    display:flex;
+    padding:100px 0;
+}
+img {
+    height: auto;
+    width: 540px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#f9faf8;
+}
+header button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 10px 40px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.boxes {
+    padding-top: 50px;
+}
+.boxes .container {
+    display:flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.boxes h1 {
+    text-align: center;
+    color:#1f2927;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+.boxes .box {
+    border: 4px; 
+    height: 170px;
+    width:  170px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.text-under-boxes .container {
+    display:flex;
+    justify-content: center;
+    gap:3rem;
+}
+
+.text-under-boxes .text {
+    border: 5px;
+    width: 170px;
+    height: 170px;
+    font-size: 17px;
+    text-align: center;
+    color: grey;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 330px;
+    padding-right: 270px;
+}
+
+.quote-itself {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.thor {
+    padding-right: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.call {
+    padding:100px 0;
+}
+.call .container {
+    display:flex;
+    padding: 50px 0;
+    background-color:  #3882f6;
+    justify-content:space-around;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.call-text h1 {
+    color:#f9faf8;
+}
+
+.call-text p {
+    color: #e5e7eb;
+}
+
+.call button {
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding:5px 25px;
+    color:#f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+}
+.call .button {
+    padding-top: 5px;
+}
+
+footer {
+    padding:50px 0;
+}
+
+footer p {
+    text-align: center;
+    color:#e5e7eb;
 }
